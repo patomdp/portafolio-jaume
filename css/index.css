@@ -1,0 +1,33 @@
+:root {
+    --fontBase: 'Poppins', sans-serif;
+    /* Estructura: Font weight - font size - line height  - font family */
+    --headline1: bold 95px/154px var(--fontBase);
+    --headline2: bold 59px/95px var(--fontBase);
+    --headline3: bold 48px/78px var(--fontBase);
+    --headline4: bold 34px/55px var(--fontBase);
+    --headline5: bold 24px/39px var(--fontBase);
+    --body1: 400 16px/26px var(--fontBase);
+    --body2: 400 14px/23px var(--fontBase);
+    --button: bold 14px/23px var(--fontBase);
+    --caption: 12px/19px var(--fontBase);
+    --Quote: 34px/55px var(--fontBase);
+    /* Colores */
+    --purple: #310A90;
+    --green: #42E2B8;
+    /* Gradientes  */
+    --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+    --gradient2: linear-gradient(135deg, #FAD7A1 0%, #E96D71 100%); ;
+}
+
+body {
+    background: var(--gradient);
+    min-height: 100vh;
+    /* min-block-size: 100vh; */
+    font: var(--body1);
+    color: var(--green);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
