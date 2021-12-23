@@ -2,9 +2,14 @@
 @import "./button-icon.css";
 @import "./header.css";
 @import "./hero.css";
+@import "./wrapper.css";
+@import "./menu.css";
+@import "./comment.css";
+@import "./card.css";
 
 :root {
     --fontBase: 'Poppins', sans-serif;
+    --fontBase2:'Oxygen', sans-serif;
     /* Estructura: Font weight - font size - line height  - font family */
     --headline1: bold 95px/154px var(--fontBase);
     --headline2: bold 59px/95px var(--fontBase);
@@ -15,7 +20,7 @@
     --body2: 400 14px/23px var(--fontBase);
     --button: bold 14px/23px var(--fontBase);
     --caption: 12px/19px var(--fontBase);
-    --Quote: 34px/55px var(--fontBase);
+    --quote: 34px/55px var(--fontBase2);
     /* Colores */
     --purple: #310A90;
     --green: #42E2B8;
@@ -23,6 +28,11 @@
     /* Gradientes  */
     --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
     --gradient2: linear-gradient(135deg, #FAD7A1 0%, #E96D71 100%); 
+    /* Screen Media Breakpoints*/
+    --breakpoint1: 768px;
+    --breakpoint2: 1024px;
+    --breakpoint3: 1280px;
+    --breakpoint4: 1366px;
 }
 
 body {
@@ -32,3 +42,4 @@ body {
     font: var(--body1);
     color: var(--purple);
 }
+

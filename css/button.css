@@ -18,3 +18,28 @@
     color: var(--purple);
     border: 2px solid var(--purple);
 }
+
+.linked-group {
+    display: none;
+    align-items: center;
+    gap: 1em;
+}
+
+.linked{
+    font-family: var(--fontBase2);
+    font-weight: 700;
+    color: var(--purple);
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .button{
+        max-inline-size: 255px;
+    }
+
+    .linked-group {
+        display: flex;
+    }
+    
+}

@@ -1,0 +1,15 @@
+.wrapper{
+    max-inline-size: 1158px; /*El que hace que no crezca mas*/
+    padding-inline-end: 3rem;
+    padding-inline-start: 3rem;
+    margin: auto; /*para centrar todo*/
+}
+
+@media screen and (min-width: 768px) {
+
+    .wrapper{
+    padding-inline-end: 1rem;
+    padding-inline-start: 1rem;
+    }
+    
+}

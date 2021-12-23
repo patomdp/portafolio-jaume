@@ -29,3 +29,34 @@
 .hero-social{
     padding-block-end: 24px;
 }
+
+
+@media screen and (min-width: 768px) {
+    .hero {
+        display: flex;
+        gap: 2rem;
+    }
+    .hero-description{
+        max-inline-size: 450px;
+    }
+    .hero-image{
+        order: 1;
+        flex: 1;
+        text-align: end;
+    }
+    
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .hero-image img{
+        inline-size: 504px;
+        block-size: 500px;
+    }
+
+    .hero-social{
+        display: none;
+    }
+
+}

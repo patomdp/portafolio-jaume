@@ -1,0 +1,39 @@
+.comment{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: space-between;
+ margin-top: 1em;
+ max-width: 900px;
+ margin: auto;
+ padding-top: 40px;
+ padding-bottom: 40px;
+ gap: 24px;
+}
+
+.comment p{
+    margin: 0;
+    text-align: center;
+    font: var(--headline5);
+    
+}
+
+.comment p:first-child{
+    font: var(--headline5);
+    font-family: var(--fontBase2);
+    font-weight: 300;
+}
+
+.button-arrow{
+    block-size: 80px; /*height*/
+    inline-size: 80px; /*width*/
+}
+
+@media screen and (min-width: 1366px) {
+    .comment {
+        padding-top: 150px;
+        padding-bottom: 150px;
+        block-size: 280px;
+    }
+    
+}
