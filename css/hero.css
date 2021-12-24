@@ -7,6 +7,11 @@
     text-align: center;
 }
 
+.hero-image img{
+    /*le agrego esto para que ocupe el maximo disponible*/
+   width: -webkit-fill-available;
+}
+
 .hero h1 { 
     margin: 0;
     display: flex;
@@ -44,6 +49,10 @@
         flex: 1;
         text-align: end;
     }
+    .hero-image img{
+        
+       width: 35vw;
+   }
     
 
 }

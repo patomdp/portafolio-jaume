@@ -6,6 +6,9 @@
 @import "./menu.css";
 @import "./comment.css";
 @import "./card.css";
+@import "./testimony.css";
+@import "./social.css";
+@import "./footer.css";
 
 :root {
     --fontBase: 'Poppins', sans-serif;
@@ -38,6 +41,7 @@
 body {
     background: var(--gradient);
     min-height: 100vh;
+    margin: 0;
     /* min-block-size: 100vh; */
     font: var(--body1);
     color: var(--purple);

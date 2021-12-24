@@ -30,7 +30,10 @@
     font-weight: 700;
     color: var(--purple);
     text-decoration: underline;
+    display: flex;
+    gap: 10px;
 }
+
 
 @media screen and (min-width: 1024px) {
 
@@ -40,6 +43,8 @@
 
     .linked-group {
         display: flex;
+        flex-direction: column;
+        align-items: flex-start;
     }
     
 }

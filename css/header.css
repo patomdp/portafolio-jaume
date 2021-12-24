@@ -6,8 +6,8 @@
     position: sticky;
     top: 0;
     backdrop-filter: blur(5px);
-    padding-inline-start: 3rem;
-    padding-inline-end: 3rem;
+    padding-inline-start: 2rem;
+    padding-inline-end: 2rem;
 }
 
 #info-phone{
@@ -31,6 +31,15 @@
     }
     #info-mail{
         display: block;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+
+    .header{
+    padding-inline-end: 1rem;
+    padding-inline-start: 1rem;
     }
     
 }

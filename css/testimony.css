@@ -1,0 +1,54 @@
+.testimony{
+    padding-block-start: 40px;
+    padding-block-end: 40px;
+}
+
+.testimony-description{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.testimony-image img{
+    width: -webkit-fill-available;
+    max-inline-size: 100%;
+}
+
+.testimony-title{
+    align-self: flex-start;
+    /* border: var(--white) 3px solid; */
+    background-color: var(--purple);
+    text-transform: lowercase;
+    font: var(--headline5);
+    color: var(--white);
+    text-decoration: none;
+    padding: 4px 8px;
+    /* margin-top: 40px; */
+    /* X Y BLUR COLOR */
+    /* margin-inline-start: 4px; */
+    box-shadow: -4px 4px 0 var(--white);
+    /* background-position: 10px; */
+    max-inline-size: 100%;
+}
+
+/*  */
+
+@media screen and (min-width: 768px) {
+    .testimony{
+        display: flex;
+        align-items: center;
+        padding-block-start: 80px;
+        padding-block-end: 80px;
+    }
+    .testimony-description{
+        flex: 1;
+    }
+    .testimony:nth-child(odd) .testimony-image{
+        order: -2;
+        flex: 1;
+        /* para que ocupe el 50% */
+        text-align: center;
+        
+    }
+}
+
