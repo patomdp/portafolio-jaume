@@ -1,6 +1,13 @@
 .testimony{
+    /* TODO: para probar padding global
     padding-block-start: 40px;
-    padding-block-end: 40px;
+    padding-block-end: 40px; */
+}
+
+.testimony-btns{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
 }
 
 .testimony-description{
@@ -38,8 +45,9 @@
         display: flex;
         align-items: center;
         gap: 1em;
+        /* TODO:  Se lo saco para probar el padding global
         padding-block-start: 80px;
-        padding-block-end: 80px;
+        padding-block-end: 80px; */
     }
     .testimony-description{
         flex: 1;
@@ -49,7 +57,9 @@
         flex: 1;
         /* para que ocupe el 50% */
         text-align: center;
-        
+    }
+    .testimony-btns{
+        flex-direction: row;
     }
 }
 

@@ -6,8 +6,8 @@
  margin-top: 1em;
  max-width: 900px;
  margin: auto;
- padding-top: 40px;
- padding-bottom: 40px;
+ /* TODO: para padding global padding-top: 40px;
+ padding-bottom: 40px; */
  gap: 24px;
 }
 
@@ -31,8 +31,9 @@
 
 @media screen and (min-width: 1366px) {
     .comment {
+        /* TODO: padding global
         padding-top: 150px;
-        padding-bottom: 150px;
+        padding-bottom: 150px; */
         block-size: 280px;
     }
     

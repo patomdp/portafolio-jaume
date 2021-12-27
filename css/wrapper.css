@@ -3,6 +3,14 @@
     padding-inline-end: 2rem;
     padding-inline-start: 2rem;
     margin: auto; /*para centrar todo*/
+    /* Estas 3 propiedades son para controlar el padding entre elementos
+    a nivel global */
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    /* min-width: 290px; */
+    
+    
 }
 
 /* Si la pantalla tiene al menos 768px */
@@ -10,5 +18,6 @@
     .wrapper{
     padding-inline-end: 3rem;
     padding-inline-start: 3rem;
+    gap: 8em;
     } 
 }
