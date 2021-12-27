@@ -10,8 +10,8 @@
     /* border-image-source: radial-gradient(83.14% 78.52% at -12.32% -18.69%, rgba(255, 255, 255, 0.75) 0%, rgba(255, 255, 255, 0) 100%); */
     align-items: center;  
     padding: 24px;
-   gap: 24px;
-   /* margin: 60px auto; */
+    gap: 24px;
+    /* margin: 60px auto; */
 }
 
 .card p{
@@ -32,7 +32,7 @@
     background-size: cover;
 }
 
-@media screen and (min-width: 1366px) {
+@media screen and (min-width: 1024px) {
 
     .card{
         padding: 80px;

@@ -5,11 +5,10 @@
     margin: auto; /*para centrar todo*/
 }
 
+/* Si la pantalla tiene al menos 768px */
 @media screen and (min-width: 768px) {
-
     .wrapper{
-    padding-inline-end: 1rem;
-    padding-inline-start: 1rem;
-    }
-    
+    padding-inline-end: 3rem;
+    padding-inline-start: 3rem;
+    } 
 }
