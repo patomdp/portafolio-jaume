@@ -1,0 +1,1 @@
+Proyecto maquetado a partir del diseño provisto en Figma por Leonidas Esteban ## Créditos Encuentra más proyectos asombrosos en [/Proyectos](https://leonidasesteban.com/proyectos) Diseñado con ♥️ en leonidasesteban.com

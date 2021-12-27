@@ -1,22 +1,22 @@
-.testimony{
+.project{
     /* TODO: para probar padding global
     padding-block-start: 40px;
     padding-block-end: 40px; */
 }
 
-.testimony-btns{
+.project-btns{
     display: flex;
     flex-direction: column;
     gap: 1em;
 }
 
-.testimony-description{
+.project-description{
     display: flex;
     flex-direction: column;
     gap: 1em;
 }
 
-.testimony-image img{
+.project-image img{
     width: -webkit-fill-available;
     max-inline-size: 100%;
 }
@@ -26,24 +26,24 @@
 /*  */
 
 @media screen and (min-width: 768px) {
-    .testimony{
+    .project{
         display: flex;
         align-items: center;
-        gap: 1em;
+        gap: 2em;
         /* TODO:  Se lo saco para probar el padding global
         padding-block-start: 80px;
         padding-block-end: 80px; */
     }
-    .testimony-description{
+    .project-description{
         flex: 1;
     }
-    .testimony:nth-child(odd) .testimony-image{
+    .project:nth-child(odd) .project-image{
         order: -2;
         flex: 1;
         /* para que ocupe el 50% */
         text-align: center;
     }
-    .testimony-btns{
+    .project-btns{
         flex-direction: row;
     }
 }
