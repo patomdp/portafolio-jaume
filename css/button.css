@@ -11,12 +11,16 @@
     border: none;
     text-decoration: none;
     text-align: center;
+    align-items: center;
+    border: 2px solid var(--purple);
+}
+
+.button a {
 }
 
 .button.is-secondary{
     background-color: transparent;
     color: var(--purple);
-    border: 2px solid var(--purple);
 }
 
 .linked-group {
